@@ -5,7 +5,7 @@ import logo from "../../../public/frm/Logo.svg";
 export const TopMenuMobile = () => {
     return (
         <div class="flex justify-between p-5 ">
-            <div class="flex items-center">
+            <div class=" md:hidden">
                 <img src={menue} alt="menu" />
             </div>
             <div class=" flex items-center ">
@@ -13,7 +13,7 @@ export const TopMenuMobile = () => {
 
                 <p>Luminae</p>
             </div>
-            <div class=" flex ">
+            <div class=" flex md:hidden">
                 <img src={card} alt="cart" />
 
                 <div class="bg-green-400 text-white rounded-full w-6 h-6 flex justify-center items-center  ">
