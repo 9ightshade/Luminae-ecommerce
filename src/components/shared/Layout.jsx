@@ -1,18 +1,25 @@
 import React from "react";
-import { TopMenuMobile } from "./Header";
+import { TopMenu } from "./TopMenu";
 import { Search } from "./Search";
+import { Nav } from "./Nav";
+import { RouterHeader } from "./RouterHeader";
+import { Footer, PaymentLink } from "./RouterFooter";
+
 
 const Layout = ({ children }) => {
     return (
         <div>
-            <header>
-          <TopMenuMobile />{" "}
-          <Search/>
+            <header class="md:flex justify-around items-center p-6 ">
+                <TopMenu /> <Search />
             </header>
-
+            <Nav />
+            <RouterHeader />
             <main>{children}</main>
 
-            <footer>footer components go here</footer>
+            <footer>
+                <Footer />
+                <PaymentLink />
+            </footer>
         </div>
     );
 };
