@@ -8,7 +8,7 @@ export const LuminaeEmailModal = () => {
                 Register your email not to miss the last minutes off + Free
                 delivery
             </p>
-            <div class="flex justify-center p-3  " >
+            <div class="flex justify-center p-3  ">
                 <input
                     type="email"
                     name=""

@@ -7,14 +7,14 @@ import { CartComponent } from "./Cart";
 
 export const RouterHeader = () => {
     return (
-        <div class="bg-black hidden md:block text-sm ">
-            <div class="flex items-center justify-between w-4/5 text-white mx-auto">
-                <div class="flex items-center ">
+        <div className="bg-black hidden md:block text-sm ">
+            <div className="flex items-center justify-between w-4/5 text-white mx-auto">
+                <div className="flex items-center ">
                     <img src={categories} alt="categories" />
                     <p>Categories</p>
                 </div>
 
-                <select name="currency" id="currency" class="bg-black ">
+                <select name="currency" id="currency" className="bg-black ">
                     <option value="">USD</option>
                     <option value="">EURO</option>
                     <option value="">Crypto</option>

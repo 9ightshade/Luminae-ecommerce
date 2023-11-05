@@ -5,11 +5,10 @@ import { Nav } from "./Nav";
 import { RouterHeader } from "./RouterHeader";
 import { Footer, PaymentLink } from "./RouterFooter";
 
-
 const Layout = ({ children }) => {
     return (
         <div>
-            <header class="md:flex justify-around items-center p-6 ">
+            <header className="md:flex justify-around items-center p-6 ">
                 <TopMenu /> <Search />
             </header>
             <Nav />

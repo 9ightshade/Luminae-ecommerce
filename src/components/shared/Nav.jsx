@@ -2,8 +2,6 @@ import instagram from "../../assets/frm/instagram.svg";
 import facebook from "../../assets/frm/FB.svg";
 import telegram from "../../assets/frm/telegram.svg";
 
-
-
 export const Nav = () => {
     return (
         <div class="hidden md:flex   justify-between w-4/5 mx-auto  ">

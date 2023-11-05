@@ -6,13 +6,9 @@ import facebook from "../../assets/frm/FB.svg";
 import telegram from "../../assets/frm/telegram.svg";
 import { LanguageComponent } from "./LanguageComponent";
 
-
-
-
 export const Footer = () => {
     return (
         <div class="bg-blue-300 ">
-          
             <div class="lg:flex lg:items-center pb-5">
                 <div class="flex justify-around px-8 font-medium md:w-1/2 mx-auto ">
                     <div class=" w-1/2  ">
@@ -70,15 +66,25 @@ export const PaymentLink = () => {
                     <img src={mastercard} alt="mastercard" class="mx-3" />
                     <img src={paypal} alt="paypal" class="mx-3" />
                 </div>
+
                 <LanguageComponent
                     tailwindStyles={"bg-white hidden md:block "}
                 />
             </div>
+
             <hr class="h-px w-4/5 mx-auto bg-black hidden md:block" />
+
             <div class=" justify-around hidden md:flex text-sm py-3  ">
-                <p class="" ><strong>165-179 forster Road City of Moriah, Melbourne, Australia</strong></p>
+                <p class="">
+                    <strong>
+                        165-179 forster Road City of Moriah, Melbourne,
+                        Australia
+                    </strong>
+                </p>
+
                 <p>&copy;2023 Copyright in reserved for Luminae shop</p>
-                <div class="flex justify-around " >
+
+                <div class="flex justify-around ">
                     <img src={instagram} class="mr-3" alt="instagram" />
                     <img src={facebook} alt="facebook" />
                     <img class="ml-3" src={telegram} alt="telegram" />
