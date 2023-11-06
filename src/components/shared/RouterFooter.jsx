@@ -8,11 +8,11 @@ import { LanguageComponent } from "./LanguageComponent";
 
 export const Footer = () => {
     return (
-        <div class="bg-blue-300 ">
-            <div class="lg:flex lg:items-center pb-5">
-                <div class="flex justify-around px-8 font-medium md:w-1/2 mx-auto ">
-                    <div class=" w-1/2  ">
-                        <p class="font-bold">Company</p>
+        <div className="bg-blue-300 ">
+            <div className="lg:flex lg:items-center pb-5">
+                <div className="flex justify-around px-8 font-medium md:w-1/2 mx-auto ">
+                    <div className=" w-1/2  ">
+                        <p className="font-bold">Company</p>
                         <ul>
                             <li>About Us</li>
                             <li>Our Store</li>
@@ -20,8 +20,8 @@ export const Footer = () => {
                         </ul>
                     </div>
 
-                    <div class=" w-1/2  ">
-                        <p class="font-bold">
+                    <div className=" w-1/2  ">
+                        <p className="font-bold">
                             Career <br /> Opportunities
                         </p>
                         <ul>
@@ -32,9 +32,9 @@ export const Footer = () => {
                     </div>
                 </div>
 
-                <div class="flex justify-around px-8 py-3 font-medium md:w-1/2 mx-auto ">
-                    <div class=" w-1/2  ">
-                        <p class="font-bold  ">How To Buy</p>
+                <div className="flex justify-around px-8 py-3 font-medium md:w-1/2 mx-auto ">
+                    <div className=" w-1/2  ">
+                        <p className="font-bold  ">How To Buy</p>
                         <ul>
                             <li>Making Payments</li>
                             <li>Delivery Optionas</li>
@@ -43,8 +43,8 @@ export const Footer = () => {
                         </ul>
                     </div>
 
-                    <div class=" w-1/2  ">
-                        <p class="font-bold">Help</p>
+                    <div className=" w-1/2  ">
+                        <p className="font-bold">Help</p>
                         <ul>
                             <li>Contact Us</li>
                             <li>FAQ</li>
@@ -60,11 +60,11 @@ export const Footer = () => {
 export const PaymentLink = () => {
     return (
         <div>
-            <div class="flex justify-around">
-                <div class="flex  py-5">
-                    <img src={visa} alt="visa" class="mx-3" />
-                    <img src={mastercard} alt="mastercard" class="mx-3" />
-                    <img src={paypal} alt="paypal" class="mx-3" />
+            <div className="flex justify-around">
+                <div className="flex  py-5">
+                    <img src={visa} alt="visa" className="mx-3" />
+                    <img src={mastercard} alt="mastercard" className="mx-3" />
+                    <img src={paypal} alt="paypal" className="mx-3" />
                 </div>
 
                 <LanguageComponent
@@ -72,10 +72,10 @@ export const PaymentLink = () => {
                 />
             </div>
 
-            <hr class="h-px w-4/5 mx-auto bg-black hidden md:block" />
+            <hr className="h-px w-4/5 mx-auto bg-black hidden md:block" />
 
-            <div class=" justify-around hidden md:flex text-sm py-3  ">
-                <p class="">
+            <div className=" justify-around hidden md:flex text-sm py-3  ">
+                <p className="">
                     <strong>
                         165-179 forster Road City of Moriah, Melbourne,
                         Australia
@@ -84,10 +84,10 @@ export const PaymentLink = () => {
 
                 <p>&copy;2023 Copyright in reserved for Luminae shop</p>
 
-                <div class="flex justify-around ">
-                    <img src={instagram} class="mr-3" alt="instagram" />
+                <div className="flex justify-around ">
+                    <img src={instagram} className="mr-3" alt="instagram" />
                     <img src={facebook} alt="facebook" />
-                    <img class="ml-3" src={telegram} alt="telegram" />
+                    <img className="ml-3" src={telegram} alt="telegram" />
                 </div>
             </div>
         </div>

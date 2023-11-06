@@ -2,8 +2,12 @@ import searchIcon from "../../assets/Icon/Search.svg";
 
 export const Search = () => {
     return (
-        <form class=" flex justify-center  mx-auto">
-            <input type="text" class=" text-white p-2 " placeholder="Search" />
+        <form className=" flex justify-center  mx-auto">
+            <input
+                type="text"
+                className=" text-white p-2 "
+                placeholder="Search"
+            />
 
             <select name="all-categories" id="all-categories">
                 <option value="">All Categories</option>
@@ -20,7 +24,7 @@ export const Search = () => {
                 <option value="">Best Seller</option>
             </select>
 
-            <button class="p-2 ">
+            <button className="p-2 ">
                 <img src={searchIcon} alt="search-icon" />
             </button>
         </form>

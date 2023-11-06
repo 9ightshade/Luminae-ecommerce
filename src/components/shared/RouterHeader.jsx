@@ -24,27 +24,31 @@ export const RouterHeader = () => {
                     <LanguageComponent tailwindStyles={"bg-black"} />
                 </div>
 
-                <div class="hidden lg:flex items-center py-3 ">
+                <div className="hidden lg:flex items-center py-3 ">
                     <img src={mencosmetic} alt="men-cosmetics" />
                     <div>
                         <p>Weekly Men's Toiletries Coupons.</p>
-                        <p class="text-gray-400">
+                        <p className="text-gray-400">
                             We extended exclusive discounts to our male Cliente
                         </p>
                     </div>
                 </div>
 
-                <button class="flex">
+                <button className="flex">
                     <img src={signIn} alt="sign-in" />
                     Sign in
                 </button>
 
-                <button class="flex  ">
-                    <img src={favourites} alt="favourites" class="mr-2" />
+                <button className="flex  ">
+                    <img
+                        src={favourites}
+                        alt="favourites"
+                        className="mr-2"
+                    />
                     Favourites
                 </button>
 
-                <div class="mx-2">
+                <div className="mx-2">
                     <CartComponent />
                 </div>
             </div>
