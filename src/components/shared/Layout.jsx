@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
                         setmobileNavDisplay={setmobileNavDisplay}
                     />
                 ) : (
-                    <div className="md:flex " >
+                    <div className="md:flex ">
                         {" "}
                         <TopMenu
                             mobileNavDisplay={mobileNavDisplay}
@@ -30,6 +30,10 @@ const Layout = ({ children }) => {
             </header>
             <Nav />
             <RouterHeader />
+            <div className="hidden md:block">
+                <Categories />
+            </div>
+
             <main>{children}</main>
 
             <footer>
