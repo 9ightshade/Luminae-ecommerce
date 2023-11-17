@@ -16,7 +16,7 @@ export const Categories = ({ mobileNavDisplay, setmobileNavDisplay }) => {
                 <h3 className=" ml-28 font-bold text-lg md:hidden">Menu</h3>
             </div>
 
-            <ul className="md:flex justify-around ">
+            <ul className="md:flex justify-around bg-slate-50 ">
                 <li
                     onClick={() => {
                         setcategoryToogle(!categoryToogle);
