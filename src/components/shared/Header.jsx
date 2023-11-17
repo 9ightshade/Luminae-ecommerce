@@ -5,7 +5,7 @@ import categories from "../../assets/frm/categories.svg";
 import mencosmetic from "../../assets/frm/Men-cosmetic.png";
 import { CartComponent } from "./Cart";
 
-export const RouterHeader = () => {
+export const Header = () => {
     return (
         <div className="bg-black hidden md:block text-sm ">
             <div className="flex items-center justify-between w-4/5 text-white mx-auto">

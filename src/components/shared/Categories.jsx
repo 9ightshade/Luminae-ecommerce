@@ -1,7 +1,9 @@
 import { useState } from "react";
 import x from "../../assets/frm/remove.svg";
 import { Subcategories } from "./Categories/Sub-categories";
-import { Mobile_subcategory } from "./Categories/Mobile-category";
+
+
+
 export const Categories = ({ mobileNavDisplay, setmobileNavDisplay }) => {
     const [categoryToogle, setcategoryToogle] = useState(false);
 
@@ -18,7 +20,7 @@ export const Categories = ({ mobileNavDisplay, setmobileNavDisplay }) => {
                 <h3 className=" ml-28 font-bold text-lg md:hidden">Menu</h3>
             </div>
 
-            <ul className="md:flex justify-around bg-slate-50 p-[15px] ">
+            <ul className="md:flex justify-around bg-slate-50 p-[15px]  md:relative ">
                 <li
                     onClick={() => {
                         setcategoryToogle(!categoryToogle);

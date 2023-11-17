@@ -1,10 +1,12 @@
+// import imagecategory from "../../../assets/frm/image-category.png"
+
 export const Subcategories = () => {
     
     return (
     
         
-                    <div className=" md:relative" >
-                        <div className="md:flex md:absolute left-0 top-6 bg-[white] ">
+            
+                        <div className="md:flex md:absolute left-[50px] top-[50px] bg-[white] h-[600px] md:w-[700px]">
                             <div className="flex p-[20px] ">
                                 <div className="w-1/2" > 
                                     <ul className="leading-[30px]">
@@ -15,9 +17,9 @@ export const Subcategories = () => {
                                         <li>Slippers</li>
                                     </ul>
 
-                                    <ul className="leading-[30px] mt-[60px] "  >
-                                        <h3 className=" font-bold" >
-                                            LUXURY & DESIGNER
+                                    <ul className="leading-[30px] mt-[60px] md:mt-[30px] "  >
+                                        <h3 className=" font-bold  md:mt-[30px] " >
+                                            LUXURY & <br></br> DESIGNER
                                         </h3>
 
                                         <li>Towels</li>
@@ -37,7 +39,7 @@ export const Subcategories = () => {
                                     </ul>
 
                                     <ul className="leading-[30px] mt-[30px] " >
-                                        <h3 className="font-bold" >COSMETICS</h3>
+                                        <h3 className="font-bold md:mt-[30px]  " >COSMETICS</h3>
                                         <li>Shampoo and Conditioner</li>
                                         <li>Styling Products</li>
                                         <li>Hair Accesories</li>
@@ -46,9 +48,9 @@ export const Subcategories = () => {
                                 </div>
                             </div>
 
-                            <div className="flex p-[30px] ">
+                            <div className="flex p-[30px] md:p-[20px] ">
                                 <div className=" w-1/2 " >
-                                    <ul className="leading-[30px] mt-[20px]" >
+                                    <ul className="leading-[30px] mt-[20px] md:mt-[0px] " >
                                         <h3 className="font-bold" >PARTY SUPPLIES</h3>
                                         <li>Event & Party</li>
                                         <li>Christmas</li>
@@ -57,7 +59,7 @@ export const Subcategories = () => {
                                     </ul>
 
                                     <ul className="leading-[30px] mt-[20px]" >
-                                        <h3 className="font-bold" >
+                                        <h3 className="font-bold md:mt-[30px] " >
                                             SPORT & OUTDOORS
                                         </h3>
                                         <li>Team Sports</li>
@@ -68,7 +70,7 @@ export const Subcategories = () => {
                                 </div>
 
                                 <div className=" w-1/2" >
-                                    <ul className="leading-[30px] mt-[20px]">
+                                    <ul className="leading-[30px] mt-[20px] md:mt-[0px] md:ml-[35px] ">
                                         <h3 className="font-bold" >CLOTHES</h3>
                                         <li>Bottoms</li>
                                         <li>Womens Clothing</li>
@@ -83,9 +85,13 @@ export const Subcategories = () => {
                                         <li>Fall Wardrobe</li>
                                     </ul>
                                 </div>
-                            </div>
+            </div>
+{/*             
+            <div className="hidden lg:block h " >
+                <img src={imagecategory} alt="woman-category-image" />
+            </div> */}
                         </div>
-                    </div>
+                
 )
 
 }

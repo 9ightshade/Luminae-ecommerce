@@ -2,7 +2,7 @@ import React from "react";
 import { TopMenu } from "./TopMenu";
 import { Search } from "./Search";
 import { Nav } from "./Nav";
-import { RouterHeader } from "./Header";
+import { Header } from "./Header";
 import { Footer, PaymentLink } from "./Footer";
 import { Categories } from "./Categories";
 import { useState } from "react";
@@ -31,7 +31,7 @@ const Layout = ({ children }) => {
                 )}
             </header>
             <Nav />
-            <RouterHeader />
+            <Header />
             <div className="hidden md:block">
                 <Categories />
             </div>
