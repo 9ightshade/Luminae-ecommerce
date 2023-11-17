@@ -1,5 +1,6 @@
 import { useState } from "react";
 import x from "../../assets/frm/remove.svg";
+import { Subcategories } from "./Categories/Sub-categories";
 export const Categories = ({ mobileNavDisplay, setmobileNavDisplay }) => {
     const [categoryToogle, setcategoryToogle] = useState(false);
 
@@ -16,126 +17,41 @@ export const Categories = ({ mobileNavDisplay, setmobileNavDisplay }) => {
                 <h3 className=" ml-28 font-bold text-lg md:hidden">Menu</h3>
             </div>
 
-            <ul className="md:flex justify-around bg-slate-50 ">
+            <ul className="md:flex justify-around bg-slate-50 p-[10px] ">
                 <li
                     onClick={() => {
                         setcategoryToogle(!categoryToogle);
                     }}
-                    className="hover:text-yellow-600 font-semibold "
+                    className="hover:text-yellow-600 font-semibold my-[12px] "
                 >
                     Woman
                 </li>
-                {categoryToogle ? (
-                    <div className=" md:relative" >
-                        <div className="md:flex md:absolute left-0 top-6 bg-slate-50 ">
-                            <div className="flex justify-around h-2/5 ">
-                                <div>
-                                    <ul className="my-4">
-                                        <h3>SHOE & BAG</h3>
-                                        <li>Casual Shoes</li>
-                                        <li>Boots</li>
-                                        <li>Sandals</li>
-                                        <li>Slippers</li>
-                                    </ul>
-
-                                    <ul>
-                                        <h3 className="w-1/2 " >
-                                            LUXURY
-                                             & DESIGNER
-                                        </h3>
-
-                                        <li>Towels</li>
-                                        <li>Bathroom Scales</li>
-                                        <li>Bathroom Mats</li>
-                                        <li>Shower Caps</li>
-                                    </ul>
-                                </div>
-
-                                <div>
-                                    <ul className="my-4">
-                                        <h3>HOME TEXTILE</h3>
-                                        <li>Bedding</li>
-                                        <li>Pillows</li>
-                                        <li>Handkerchief Towels</li>
-                                        <li>Curtain</li>
-                                    </ul>
-
-                                    <ul>
-                                        <h3>COSMETICS</h3>
-                                        <li>Shampoo and Conditioner</li>
-                                        <li>Styling Products</li>
-                                        <li>Hair Accesories</li>
-                                        <li>Men's Grooming</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div className="flex justify-around">
-                                <div>
-                                    <ul className="my-4">
-                                        <h3>PARTY SUPPLIES</h3>
-                                        <li>Event & Party</li>
-                                        <li>Christmas</li>
-                                        <li>Artificial Decorations</li>
-                                        <li>Wedding</li>
-                                    </ul>
-
-                                    <ul>
-                                        <h3>
-                                            SPORT
-                                            <br /> & OUTDOORS
-                                        </h3>
-                                        <li>Team Sports</li>
-                                        <li>Water Sports</li>
-                                        <li>Outdoor Recreation </li>
-                                        <li>Fitness Equipment</li>
-                                    </ul>
-                                </div>
-
-                                <div>
-                                    <ul className="my-4">
-                                        <h3>CLOTHES</h3>
-                                        <li>Bottoms</li>
-                                        <li>Women's Clothing</li>
-                                        <li>T-shirts & Tops</li>
-                                        <li>Dresses</li>
-                                        <li>Outer Wear</li>
-                                        <li>Formal Wear</li>
-                                        <li>Casual Wear</li>
-                                        <li>Seasonal Collection</li>
-                                        <li>Sport Bra</li>
-                                        <li>Workout Tops</li>
-                                        <li>Fall Wardrobe</li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                {categoryToogle ? (<Subcategories/>
                 ) : null}
 
-                <li className="hover:text-yellow-600  font-semibold ">Male</li>
-                <li className="hover:text-yellow-600  font-semibold ">
+                <li className="hover:text-yellow-600  font-semibold my-[12px] ">Male</li>
+                <li className="hover:text-yellow-600  font-semibold my-[12px] ">
                     Mother-child
                 </li>
-                <li className="hover:text-yellow-600  font-semibold  ">
+                <li className="hover:text-yellow-600  font-semibold my-[12px]  ">
                     Home & Furniture
                 </li>
-                <li className="hover:text-yellow-600  font-semibold ">
+                <li className="hover:text-yellow-600  font-semibold my-[12px] ">
                     Supermarket
                 </li>
-                <li className="hover:text-yellow-600  font-semibold  ">
+                <li className="hover:text-yellow-600  font-semibold my-[12px]  ">
                     Cosmetics
                 </li>
-                <li className="hover:text-yellow-600  font-semibold ">
+                <li className="hover:text-yellow-600  font-semibold my-[12px] ">
                     Shoe & Bag
                 </li>
-                <li className="hover:text-yellow-600  font-semibold ">
+                <li className="hover:text-yellow-600  font-semibold my-[12px] ">
                     Electronics
                 </li>
-                <li className="hover:text-yellow-600  font-semibold ">
+                <li className="hover:text-yellow-600  font-semibold my-[12px] ">
                     Sports & Outdoor
                 </li>
-                <li className="hover:text-yellow-600  font-semibold ">
+                <li className="hover:text-yellow-600  font-semibold my-[12px] ">
                     Best seller
                 </li>
             </ul>
