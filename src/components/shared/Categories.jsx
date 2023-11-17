@@ -17,46 +17,46 @@ export const Categories = ({ mobileNavDisplay, setmobileNavDisplay }) => {
                 <h3 className=" ml-28 font-bold text-lg md:hidden">Menu</h3>
             </div>
 
-            <ul className="md:flex justify-around bg-slate-50 p-[10px] ">
+            <ul className="md:flex justify-around bg-slate-50 p-[15px] ">
                 <li
                     onClick={() => {
                         setcategoryToogle(!categoryToogle);
                     }}
-                    className="hover:text-yellow-600 font-semibold my-[12px] "
+                    className="hover:text-yellow-600 text-[grey] my-[12px] "
                 >
                     Woman
                 </li>
                 {categoryToogle ? (<Subcategories/>
                 ) : null}
 
-                <li className="hover:text-yellow-600  font-semibold my-[12px] ">Male</li>
-                <li className="hover:text-yellow-600  font-semibold my-[12px] ">
+                <li className="hover:text-yellow-600  text-[grey] my-[12px] ">Male</li>
+                <li className="hover:text-yellow-600  text-[grey] my-[12px] ">
                     Mother-child
                 </li>
-                <li className="hover:text-yellow-600  font-semibold my-[12px]  ">
+                <li className="hover:text-yellow-600  text-[grey] my-[12px]  ">
                     Home & Furniture
                 </li>
-                <li className="hover:text-yellow-600  font-semibold my-[12px] ">
+                <li className="hover:text-yellow-600  text-[grey] my-[12px] ">
                     Supermarket
                 </li>
-                <li className="hover:text-yellow-600  font-semibold my-[12px]  ">
+                <li className="hover:text-yellow-600  text-[grey] my-[12px]  ">
                     Cosmetics
                 </li>
-                <li className="hover:text-yellow-600  font-semibold my-[12px] ">
+                <li className="hover:text-yellow-600  text-[grey] my-[12px] ">
                     Shoe & Bag
                 </li>
-                <li className="hover:text-yellow-600  font-semibold my-[12px] ">
+                <li className="hover:text-yellow-600  text-[grey] my-[12px] ">
                     Electronics
                 </li>
-                <li className="hover:text-yellow-600  font-semibold my-[12px] ">
+                <li className="hover:text-yellow-600  text-[grey] my-[12px] ">
                     Sports & Outdoor
                 </li>
-                <li className="hover:text-yellow-600  font-semibold my-[12px] ">
+                <li className="hover:text-yellow-600  text-[grey] my-[12px] ">
                     Best seller
                 </li>
             </ul>
 
-            <div className="md:hidden my-5 text-black font-bold ">
+            <div className="md:hidden my-5 text-black font-bo leading-9 ">
                 <p>Login/Register</p>
                 <p>Help & Support</p>
                 <p>About Us</p>

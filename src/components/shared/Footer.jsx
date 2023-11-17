@@ -8,24 +8,24 @@ import { LanguageComponent } from "./LanguageComponent";
 
 export const Footer = () => {
     return (
-        <div className="bg-blue-300 ">
-            <div className="lg:flex lg:items-center pb-5">
+        <div className="bg-sky-100 ">
+            <div className="lg:flex lg:items-center p-[20px]">
                 <div className="flex justify-around px-8 font-medium md:w-1/2 mx-auto ">
                     <div className=" w-1/2  ">
                         <p className="font-bold">Company</p>
-                        <ul>
-                            <li>About Us</li>
+                        <ul className="leading-[30px] text-[grey]" >
+                            <li className="mt-[20px]" >About Us</li>
                             <li>Our Store</li>
                             <li>Contact Us</li>
                         </ul>
                     </div>
 
-                    <div className=" w-1/2  ">
+                    <div className=" w-1/2 pl-[40px] ">
                         <p className="font-bold">
                             Career <br /> Opportunities
                         </p>
-                        <ul>
-                            <li>Selling Programs</li>
+                        <ul className="leading-[30px] text-[grey]"  >
+                            <li className="mt-[20px]" >Selling Programs</li>
                             <li>Advertise</li>
                             <li>Cooperation</li>
                         </ul>
@@ -35,18 +35,18 @@ export const Footer = () => {
                 <div className="flex justify-around px-8 py-3 font-medium md:w-1/2 mx-auto ">
                     <div className=" w-1/2  ">
                         <p className="font-bold  ">How To Buy</p>
-                        <ul>
-                            <li>Making Payments</li>
+                        <ul className="leading-[30px] text-[grey]"  >  
+                            <li className="mt-[20px]" >Making Payments</li>
                             <li>Delivery Optionas</li>
                             <li>Buyer Production</li>
                             <li>New User Guide</li>
                         </ul>
                     </div>
 
-                    <div className=" w-1/2  ">
+                    <div className=" w-1/2 pl-[40px] ">
                         <p className="font-bold">Help</p>
-                        <ul>
-                            <li>Contact Us</li>
+                        <ul className="leading-[30px] text-[grey]"  >
+                            <li className="mt-[20px]" >Contact Us</li>
                             <li>FAQ</li>
                             <li>Privacy Policy</li>
                         </ul>

@@ -2,8 +2,8 @@ import React from "react";
 import { TopMenu } from "./TopMenu";
 import { Search } from "./Search";
 import { Nav } from "./Nav";
-import { RouterHeader } from "./RouterHeader";
-import { Footer, PaymentLink } from "./RouterFooter";
+import { RouterHeader } from "./Header";
+import { Footer, PaymentLink } from "./Footer";
 import { Categories } from "./Categories";
 import { useState } from "react";
 
