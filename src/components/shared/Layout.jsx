@@ -13,10 +13,12 @@ const Layout = ({ children }) => {
         <div>
             <header className="md:flex justify-around items-center p-6 ">
                 {mobileNavDisplay ? (
-                    <Categories
+                    <div className="md:hidden" >
+                         <Categories
                         mobileNavDisplay={mobileNavDisplay}
                         setmobileNavDisplay={setmobileNavDisplay}
                     />
+                   </div>
                 ) : (
                     <div className="md:flex ">
                         {" "}

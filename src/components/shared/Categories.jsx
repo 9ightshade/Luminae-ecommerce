@@ -1,6 +1,7 @@
 import { useState } from "react";
 import x from "../../assets/frm/remove.svg";
 import { Subcategories } from "./Categories/Sub-categories";
+import { Mobile_subcategory } from "./Categories/Mobile-category";
 export const Categories = ({ mobileNavDisplay, setmobileNavDisplay }) => {
     const [categoryToogle, setcategoryToogle] = useState(false);
 
@@ -26,8 +27,8 @@ export const Categories = ({ mobileNavDisplay, setmobileNavDisplay }) => {
                 >
                     Woman
                 </li>
-                {categoryToogle ? (<Subcategories/>
-                ) : null}
+                {categoryToogle ? <Subcategories/>
+                : null }
 
                 <li className="hover:text-yellow-600  text-[grey] my-[12px] ">Male</li>
                 <li className="hover:text-yellow-600  text-[grey] my-[12px] ">
