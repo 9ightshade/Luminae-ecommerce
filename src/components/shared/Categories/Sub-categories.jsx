@@ -5,20 +5,19 @@ export const Subcategories = () => {
         
                     <div className=" md:relative" >
                         <div className="md:flex md:absolute left-0 top-6 bg-[white] ">
-                            <div className="flex">
+                            <div className="flex p-[20px] ">
                                 <div className="w-1/2" > 
-                                    <ul className="">
-                                        <h3 className="mt-[18px] " >SHOE & BAG</h3>
+                                    <ul className="leading-[30px]">
+                                        <h3 className="font-bold" >SHOE & BAG</h3>
                                         <li>Casual Shoes</li>
                                         <li>Boots</li>
                                         <li>Sandals</li>
                                         <li>Slippers</li>
                                     </ul>
 
-                                    <ul>
-                                        <h3 className="w-1/2 " >
-                                            LUXURY
-                                             & DESIGNER
+                                    <ul className="leading-[30px] mt-[60px] "  >
+                                        <h3 className=" font-bold" >
+                                            LUXURY & DESIGNER
                                         </h3>
 
                                         <li>Towels</li>
@@ -29,16 +28,16 @@ export const Subcategories = () => {
                                 </div>
 
                                 <div className="w-1/2" >
-                                    <ul className="my-4">
-                                        <h3>HOME TEXTILE</h3>
+                                    <ul className="leading-[30px] ">
+                                        <h3 className="font-bold" >HOME TEXTILE</h3>
                                         <li>Bedding</li>
                                         <li>Pillows</li>
                                         <li>Handkerchief Towels</li>
                                         <li>Curtain</li>
                                     </ul>
 
-                                    <ul>
-                                        <h3>COSMETICS</h3>
+                                    <ul className="leading-[30px] mt-[30px] " >
+                                        <h3 className="font-bold" >COSMETICS</h3>
                                         <li>Shampoo and Conditioner</li>
                                         <li>Styling Products</li>
                                         <li>Hair Accesories</li>
@@ -47,20 +46,19 @@ export const Subcategories = () => {
                                 </div>
                             </div>
 
-                            <div className="flex ">
+                            <div className="flex p-[30px] ">
                                 <div className=" w-1/2 " >
-                                    <ul className="">
-                                        <h3>PARTY SUPPLIES</h3>
+                                    <ul className="leading-[30px] mt-[20px]" >
+                                        <h3 className="font-bold" >PARTY SUPPLIES</h3>
                                         <li>Event & Party</li>
                                         <li>Christmas</li>
                                         <li>Artificial Decorations</li>
                                         <li>Wedding</li>
                                     </ul>
 
-                                    <ul>
-                                        <h3>
-                                            SPORT
-                                            <br /> & OUTDOORS
+                                    <ul className="leading-[30px] mt-[20px]" >
+                                        <h3 className="font-bold" >
+                                            SPORT & OUTDOORS
                                         </h3>
                                         <li>Team Sports</li>
                                         <li>Water Sports</li>
@@ -70,8 +68,8 @@ export const Subcategories = () => {
                                 </div>
 
                                 <div className=" w-1/2" >
-                                    <ul className="">
-                                        <h3>CLOTHES</h3>
+                                    <ul className="leading-[30px] mt-[20px]">
+                                        <h3 className="font-bold" >CLOTHES</h3>
                                         <li>Bottoms</li>
                                         <li>Womens Clothing</li>
                                         <li>T-shirts & Tops</li>
