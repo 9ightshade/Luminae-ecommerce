@@ -1,14 +1,4 @@
-import React from "react";
 import Layout from "../components/shared/Layout";
-<<<<<<< HEAD
-import { Categories } from "../components/shared/Categories";
-
-const Home = () => {
-  return (
-    <Layout>
-   
-    </Layout>
-=======
 import { Headercard } from "./Headercard-mb";
 import { Tabletheadercard } from "../pages/Tabletheadercard"
 import { Products } from "./Productstobuy";
@@ -16,6 +6,7 @@ import { Products } from "./Productstobuy";
 import { Laptopheader } from "./Tabletheadercard"
 import { Newarrivals } from "./Trendingnewarrivals";
 import { Tophundredproduct } from "./Tophundredproduct";
+
 
 const Home = () => {
   return (
@@ -59,7 +50,7 @@ const Home = () => {
         <div></div>
       </Layout>
     </div>
->>>>>>> origin/landing-page
+
   );
 };
 
