@@ -9,7 +9,7 @@ import { Tophundredproduct } from "./Tophundredproduct";
 
 const Home = () => {
   return (
-    <div className="m-3">
+    <div>
       <Layout>
         <Headercard />
         <Tabletheadercard />
@@ -25,7 +25,7 @@ const Home = () => {
           <Products />
           <Products />
           <Products />
-          <Products />
+    
         </div>
         <div className="flex justify-between items-center mt-[20px] mb-[10px] p-[10px] ">
           <p className="font-bold text-[20px] ">trending must have</p>

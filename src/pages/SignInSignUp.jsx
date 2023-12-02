@@ -126,7 +126,7 @@ const SignUp = () => {
             <input type="checkbox" name="" className="w-15" />
             <p>
               Terms and conditions agreement should start with an introduction
-              that lets users know they're reading a terms <br /> and conditions
+              that lets users know theyre reading a terms <br /> and conditions
               agreement
             </p>
           </div>
