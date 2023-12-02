@@ -1,11 +1,10 @@
-import React from "react";
 import tabletheaderpics from "../../public/tabletheaderpics.png";
 
 
 export const Tabletheadercard = () => {
   return (
     <>
-      <div className="w-full flex h-20vh hidden border-none sm:flex lg:hidden">
+      <div className="w-full h-20vh border-none hidden md:flex lg:hidden">
         <div className="w-1/2 lg:w-2/5">
           <img className="w-full h-full" src={tabletheaderpics} alt="" />
         </div>
@@ -34,7 +33,7 @@ export const Tabletheadercard = () => {
 export const Laptopheader = () => {
     return (
       <>
-        <div className="w-[100%] flex h-20vh border hidden lg:flex ">
+        <div className="w-[100%] h-20vh border hidden lg:flex ">
           <div className="w-[50%] lg:w-2/6">
             <img className="w-[100%] " src={tabletheaderpics} alt="" />
           </div>

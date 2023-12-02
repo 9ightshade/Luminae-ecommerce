@@ -1,4 +1,3 @@
-import React from "react";
 
 const Back = () =>{
     return(
@@ -17,11 +16,11 @@ const SignIn =() =>{
         <div style={{width: '100% 1440px' }}>
      
 
- <div class='pl-20'>
+ <div className='pl-20'>
  <h3>Sign In</h3>
   <form action="">
     <label htmlFor="Email">Email <sup>*</sup></label> <br /> 
-    <input type="email" name='email' placeholder='email address' required class="border border-gray-300 p-2 rounded"/> 
+    <input type="email" name='email' placeholder='email address' required className="border border-gray-300 p-2 rounded"/> 
     
     <br /> <br />
 

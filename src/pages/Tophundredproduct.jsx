@@ -1,4 +1,3 @@
-import React from "react";
 import blackdress from "../../public/blackdress.png";
 import blackdresstwo from "../../public/blackdress2.png";
 import star from "../../public/star.svg";

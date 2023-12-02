@@ -1,4 +1,3 @@
-import React from "react";
 import newarrivalimg from "../../public/newarrivalimg.png";
 import tabletimgforTMH from "../../public/tabletimgforTMH.png"
 
