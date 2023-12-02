@@ -1,7 +1,6 @@
-import React from "react";
 import productbag from "../../public/productbag.png";
 import star from "../../public/star.svg";
-import reebokshoe from "../../public/reebokshoe.png";
+
 
 export const Products = () => {
   return (

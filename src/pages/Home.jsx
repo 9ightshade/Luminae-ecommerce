@@ -2,7 +2,6 @@ import Layout from "../components/shared/Layout";
 import { Headercard } from "./Headercard-mb";
 import { Tabletheadercard } from "../pages/Tabletheadercard"
 import { Products } from "./Productstobuy";
-// import { Product2 } from "./Productstobuy";
 import { Laptopheader } from "./Tabletheadercard"
 import { Newarrivals } from "./Trendingnewarrivals";
 import { Tophundredproduct } from "./Tophundredproduct";
@@ -47,7 +46,6 @@ const Home = () => {
           <Tophundredproduct />
           <Tophundredproduct />
         </div>
-        <div></div>
       </Layout>
     </div>
 

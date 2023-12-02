@@ -1,4 +1,3 @@
-import React from "react";
 import Headercardimg from "../../public/headercardimg.png";
 import secondheadercardimg from "../../public/secondheadercardimg.png";
 
