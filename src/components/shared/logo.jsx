@@ -5,7 +5,7 @@ export const Logo = ({ text }) => {
   return (
     <div className=" flex items-center ">
       <img className="mr-3" src={logo} alt="logo" />
-          <p>{text}</p>
+          <p className="text-[black]" >{text}</p>
     </div>
   );
 };

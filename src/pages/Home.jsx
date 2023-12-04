@@ -7,10 +7,10 @@ import { Newarrivals } from "./Trendingnewarrivals";
 import { Tophundredproduct } from "./Tophundredproduct";
 
 
-const Home = () => {
+const Home = ({ mobileNavDisplay, setmobileNavDisplay }) => {
   return (
     <div>
-      <Layout>
+      <Layout mobileNavDisplay={mobileNavDisplay} setmobileNavDisplay={setmobileNavDisplay}  >
         <Headercard />
         <Tabletheadercard />
         <Laptopheader />
@@ -25,7 +25,6 @@ const Home = () => {
           <Products />
           <Products />
           <Products />
-    
         </div>
         <div className="flex justify-between items-center mt-[20px] mb-[10px] p-[10px] ">
           <p className="font-bold text-[20px] ">trending must have</p>
@@ -48,7 +47,6 @@ const Home = () => {
         </div>
       </Layout>
     </div>
-
   );
 };
 

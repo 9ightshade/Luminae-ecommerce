@@ -4,10 +4,10 @@ import { Nav } from "./Nav";
 import { Header } from "./Header";
 import { Footer, PaymentLink } from "./Footer";
 import { Categories } from "./Categories";
-import { useState } from "react";
 
-const Layout = ({ children }) => {
-  const [mobileNavDisplay, setmobileNavDisplay] = useState(false);
+
+const Layout = ({ children,mobileNavDisplay,setmobileNavDisplay }) => {
+
   return (
     <div>
       <header className="md:flex justify-around items-center p-6 ">
