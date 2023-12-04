@@ -1,11 +1,10 @@
-import { BlogHero } from "./components/blog/BlogHero";
-import Home from "./pages/Home";
+import { Blog } from "./pages/Blog";
 
 function App() {
   return (
     <>
-      <Home />
-      <BlogHero/>
+    <Blog/>
+      
     </>
   );
 }
