@@ -15,7 +15,8 @@ export const Blog = ({ mobileNavDisplay, setmobileNavDisplay }) => {
         <MediaLinks />
       </div>
 
-      <BlogHero />
+          <BlogHero />
+          
     </div>
   );
 };
