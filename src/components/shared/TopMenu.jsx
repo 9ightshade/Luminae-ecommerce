@@ -1,5 +1,5 @@
-import logo from "../../assets/frm/Logo.svg";
 import { CartComponent } from "./Cart";
+import { Logo } from "./logo";
 import { MenuToogle } from "./menuToogle";
 
 export const TopMenu = ({ mobileNavDisplay, setmobileNavDisplay }) => {
@@ -10,10 +10,7 @@ export const TopMenu = ({ mobileNavDisplay, setmobileNavDisplay }) => {
         setmobileNavDisplay={setmobileNavDisplay}
       />
 
-      <div className=" flex items-center ">
-        <img className="mr-3" src={logo} alt="logo" />
-        <p>Luminae</p>
-      </div>
+    <Logo text={"Luminae"} />
 
       <div className="md:hidden">
         <CartComponent />
